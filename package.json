@@ -1,0 +1,20 @@
+{
+  "name": "battleship-node",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "body-parser": "~1.0.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start-watch": "nodemon server.js",
+    "test": "mocha",
+    "test-watch": "mocha -w"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
